@@ -31,14 +31,14 @@ source {
     }
     format = json
     topic = "MES-IT__WJADPMES__WJ_ADP__POC__R_SN_CNF_T"
-    bootstrap.servers = "10.146.192.81:9092,10.146.192.82:9092,10.146.192.83:9092"
+    bootstrap.servers = "<kafka-broker-1>:9092,<kafka-broker-2>:9092,<kafka-broker-3>:9092"
     kafka.config = {
       client.id = client_1
       max.poll.records = 1000
       auto.offset.reset = "earliest"
       security.protocol = SASL_PLAINTEXT
       sasl.mechanism = PLAIN
-      sasl.jaas.config = "org.apache.kafka.common.security.scram.ScramLoginModule required username=\"MFG_DC\" password=\"MFG$DC0924\";"
+      sasl.jaas.config = "org.apache.kafka.common.security.scram.ScramLoginModule required username=\"<KAFKA_USERNAME>\" password=\"<KAFKA_PASSWORD>\";"
     }
   }  
 }

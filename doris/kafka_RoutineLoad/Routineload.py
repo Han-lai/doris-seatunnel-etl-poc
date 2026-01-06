@@ -6,12 +6,12 @@ from typing import Optional
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # 配置參數
-DORIS_HOST = "http://10.136.147.130:8030"
+DORIS_HOST = "http://<doris-fe-host>:8030"
 DATABASE = "test_variant"
 TABLE = "test_routineload_tbl"
 USER = "root"
 PASSWORD = ""
-KAFKA_BROKER_LIST = "10.136.218.207:9092"
+KAFKA_BROKER_LIST = "<kafka-broker>:9092"
 KAFKA_TOPIC = "CFX_CFX_Production_WorkCompleted"
 ROUTINE_LOAD_NAME = "routine_load_WorkCompleted"
 
