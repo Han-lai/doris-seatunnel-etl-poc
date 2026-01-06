@@ -23,7 +23,7 @@
 
 ### 專案邊界與前提條件
 
-- **測試環境**：Delta Local VM（8 核 CPU、16GB RAM、100GB HDD）
+- **測試環境**：Local VM（8 核 CPU、16GB RAM、100GB HDD）
 - **數據來源**：Kafka（MES/EAP 訊息）、ClickHouse、PostgreSQL（TPC-H 基準測試）
 - **測試規模**：已驗證處理 33GB+ 數據（8500 萬筆記錄）
 - **部署方式**：Docker Compose 本地部署
@@ -312,29 +312,5 @@ graph LR
 ## License
 
 MIT License - 詳見 [LICENSE](LICENSE) 檔案
-
----
-
-## Notes
-
-### 關於大型檔案
-- 大型二進位檔案（`*.tar.gz`、`*.zip`）已透過 `.gitignore` 排除
-- 這些檔案保留在本地，但不上傳到 GitHub
-- 建議從官方來源重新下載（Apache Doris、TPC-H）
-
-### 關於敏感資訊
-本 repository 已完成安全處理：
-- ✅ 已替換所有 Kafka 帳號密碼為 `<KAFKA_USERNAME>` / `<KAFKA_PASSWORD>`
-- ✅ 已替換所有 PostgreSQL 帳號密碼為 `<username>` / `<password>`
-- ✅ 已替換所有內部 IP 位址為佔位符（`<kafka-broker>`、`<doris-fe-host>` 等）
-- ✅ 已移除 GitLab 內部 URL
-
-### 關於選型報告書
-本 repository 的核心價值為三份選型報告書（位於 `doc/` 資料夾）：
-- `選型報告書-Doris.md`：Doris 評估報告（數據模型、效能測試、錯誤處理）
-- `選型報告書-seatunnel.md`：SeaTunnel 評估報告（Source/Transform/Sink 測試）
-- `選型報告書-Airbyte.md`：Airbyte 評估報告（評估結果與未採用原因）
-
-這些報告書為本專案的權威文件，README 內容均基於這些報告書撰寫。
 
 
