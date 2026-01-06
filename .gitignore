@@ -100,3 +100,14 @@ credentials.json
 
 # Git
 .git/
+
+# AI Agent 產生的輔助文件（不上傳到 GitHub）
+DELETED_FILES_NOTE.md
+GITHUB_PREPARATION_SUMMARY.md
+PRE_PUBLISH_CHECKLIST.md
+QUICK_START_GUIDE.md
+READY_FOR_GITHUB.md
+FINAL_STATUS.md
+PUSH_TO_GITHUB.md
+FILES_ANALYSIS.md
+readme_template.md
