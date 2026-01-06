@@ -1,0 +1,67 @@
+version: "3.8"
+services:
+  postgres_db: # 服务名称
+    image: postgres:13 # 指定镜像及其版本
+    restart: always
+    container_name: docker_postgres # 指定容器的名称
+    environment:
+    
+      POSTGRES_USER: <username>
+      POSTGRES_PASSWORD: <password>
+      POSTGRES_DB: default
+    ports: # 端口映射
+      - "9432:5432"
+    volumes: # 数据持久化的配置
+      - postgres_data:/var/lib/postgresql/data
+      - postgres_log:/var/log/postgresql
+      - ./scripts:/docker-entrypoint-initdb.d # 將腳本掛載到 initdb.d
+      - ./TPCH.tar.gz:/tmp/TPCH.tar.gz # 將 TPC-H 資料掛載到容器中
+
+    command: |
+      bash -c "
+        apt-get update && apt-get install -y build-essential gcc make &&
+        tar -xvf /tmp/TPCH.tar.gz -C /tmp &&
+        cd \"/tmp/TPC-H V3.0.1/dbgen\" && make -f makefile.suite &&
+        chown -R postgres \"/tmp/TPC-H V3.0.1\" && chgrp -R postgres \"/tmp/TPC-H V3.0.1\" &&
+        docker-entrypoint.sh postgres
+      "
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:  # 网络配置
+      - pub-network  # 加入到 pub-network 网络
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: <password>
+    ports:
+      - "9080:80"
+    depends_on:
+      - postgres_db
+
+  # backup:
+  #   image: postgres:13 
+  #   container_name: postgres_backup
+  #   volumes:
+  #     - backups:/backups
+  #   entrypoint: ["sh", "-c", "while true; do /scripts/backup.sh && sleep 86400; done"]
+  #   environment:
+  #     PGPASSWORD: secret
+  #   depends_on:
+  #     - postgres_db
+  #   networks:
+  #     - pub-network
+
+volumes:
+  postgres_data:
+   #external: true
+  postgres_log:
+  # backups:
+
+networks:
+  pub-network:
+    driver: bridge

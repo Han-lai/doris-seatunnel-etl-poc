@@ -1,0 +1,120 @@
+services:
+  seatunnel:
+    image: seatunnel:2.3.5
+    environment:
+      - JAVA_OPTS=-Xms2G -Xmx2G
+      - SEATUNNEL_HOME=/opt/seatunnel
+      - SEATUNNEL_VERSION=2.3.5 
+    ports:
+      - "9801:5801"
+    volumes:
+      - ./server/config:/opt/seatunnel/config
+      - ./logs:/opt/seatunnel/logs
+    command: ["/bin/sh", "-c", "/opt/seatunnel/bin/seatunnel-cluster.sh -DJvmOption=-Xms2G -Xmx2G"]
+    # deploy:
+    #   mode: replicated
+    #   replicas: 3
+    #   resources:
+    #     limits:
+    #       cpus: '1'
+    #       memory: 4G
+    #     reservations:
+    #       cpus: '1'
+    #       memory: 2G
+    networks:
+      - seatunnel-network
+
+  # for submitting jobs test
+#   job_submitter:
+#     image: seatunnel:2.3.5
+#     environment:
+#       - JAVA_OPTS=-Xms2G -Xmx2G
+#       - SEATUNNEL_HOME=/opt/seatunnel
+#       - SEATUNNEL_VERSION=2.3.5   
+#     volumes:
+#       - ./server/config:/opt/seatunnel/config
+#     # entrypoint: ["sh", "-c", "/opt/seatunnel/bin/seatunnel.sh --config /opt/seatunnel/config/v2.batch.config.template"]
+#     entrypoint: ["sh", "-c", "/opt/seatunnel/bin/seatunnel.sh --config /opt/seatunnel/config/clickhouse_test.config"]
+#     depends_on:
+#       - seatunnel
+#     networks:
+#       - seatunnel-network
+
+  job_submitter:
+    image: seatunnel:2.3.5
+    environment:
+      - JAVA_OPTS=-Xms2G -Xmx2G
+      - SEATUNNEL_HOME=/opt/seatunnel
+      - SEATUNNEL_VERSION=2.3.5   
+    volumes:
+      - ./server/config:/opt/seatunnel/config
+    entrypoint: |
+      sh -c '
+        if [ ! -f /opt/seatunnel/lib/mysql-connector-j-8.0.31.jar ]; then
+          echo "mysql-connector-j-8.0.31.jar not found, downloading..."
+          wget -P /opt/seatunnel/lib https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar
+        else
+          echo "mysql-connector-j-8.0.31.jar already exists."
+        fi
+        /opt/seatunnel/bin/seatunnel.sh --config /opt/seatunnel/config/ck_doris.configck_doris.config
+      '
+    depends_on:
+      - seatunnel
+    networks:
+      - seatunnel-network
+
+
+        # /opt/seatunnel/bin/seatunnel.sh --config /opt/seatunnel/config/clickhouse_test.config      
+
+
+#   seatunnel-web:
+#     image: seatunnel-web:latest
+#     environment:
+#       - JAVA_OPTS=-Xms2G -Xmx2G
+#       - SEATUNNEL_HOME=/opt/seatunnel
+#     ports:
+#       - "8801:8801"
+#     volumes:
+#       # seatunnel web config
+#       - ./server/config/hazelcast-client.yaml:/opt/seatunnel-web/conf/hazelcast-client.yaml
+#       - ./web/conf/application.yml:/opt/seatunnel-web/conf/application.yml
+#       - ./server/connectors/plugin-mapping.properties:/opt/seatunnel-web/conf/plugin-mapping.properties
+#       # seatunnel server config
+#       - ./server/config/seatunnel.yaml:/opt/seatunnel/config/seatunnel.yaml
+#       - ./server/config/hazelcast.yaml:/opt/seatunnel/config/hazelcast.yaml
+#       - ./server/config/plugin_config:/opt/seatunnel/config/plugin_config
+#       - ./server/config/hazelcast-client.yaml:/opt/seatunnel/config/hazelcast-client.yaml
+#     depends_on:
+#       - seatunnel
+#       - web-mysql
+#     networks:
+#       - seatunnel-network
+
+#   web-mysql:
+#     image: mysql:latest
+#     container_name: mysql-server
+#     environment:
+#       MYSQL_ROOT_PASSWORD: password
+#       MYSQL_DATABASE: seatunnel
+#     ports:
+#       - "3306:3306"
+#     volumes:
+#       - mysql_data:/var/lib/mysql
+#       - ./web/script:/docker-entrypoint-initdb.d/
+#     networks:
+#       - seatunnel-network
+
+#   mysql-adminer:
+#     image: adminer
+#     container_name: adminer
+#     ports:
+#       - "8080:8080"
+#     networks:
+#       - seatunnel-network
+
+# volumes:
+#   mysql_data:
+
+networks:
+  seatunnel-network:
+    driver: bridge

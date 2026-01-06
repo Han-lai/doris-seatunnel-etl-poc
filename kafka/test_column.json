@@ -1,0 +1,18 @@
+[
+    {
+        "scn": "880338467191",
+        "train_id": "880338467191",
+        "train_seq": "290323344",
+        "load_seq": "8709718752",
+        "rowid": "AAA6y2ADaAALTlFAAh",
+        "owner": "WJ_IA",
+        "table_name": "R_SN_CNF_T",
+        "op": "I",
+        "db_name": "WJIAMES",
+        "columnInfo_serial_number": "SPSTLX058904",
+        "columnInfo_mo_number": "19724529793",
+        "columnInfo_model_name": "5503535003",
+        "columnInfo_line_name": "D-HI-L02A",
+        "input_time": "2024-12-13 12:00:00"
+    }
+]

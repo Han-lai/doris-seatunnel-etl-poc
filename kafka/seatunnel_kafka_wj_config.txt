@@ -1,0 +1,52 @@
+env {
+  parallelism = 1
+  job.mode = "BATCH"
+  checkpoint.interval = 600000
+}
+
+source {
+  Kafka {
+    result_table_name = "fake"
+    schema = {
+      fields {
+        Timestamp = string
+        Topic = string
+        Partition = int
+        Offset = int
+        SchemaId = string
+        SchemaType = string
+        Key = string
+        OWNER = string
+        TABLE = string
+        OP = string
+        scn = string
+        train_id = string
+        train_seq = string
+        rowid = string
+        load_seq = string
+        DBNAME = string
+        columnsBefore = string
+        columnsAfter = string
+      }
+    }
+    format = json
+    topic = "MES-IT__WJADPMES__WJ_ADP__POC__R_SN_CNF_T"
+    bootstrap.servers = "10.146.192.81:9092,10.146.192.82:9092,10.146.192.83:9092"
+    kafka.config = {
+      client.id = client_1
+      max.poll.records = 1000
+      auto.offset.reset = "earliest"
+      security.protocol = SASL_PLAINTEXT
+      sasl.mechanism = PLAIN
+      sasl.jaas.config = "org.apache.kafka.common.security.scram.ScramLoginModule required username=\"MFG_DC\" password=\"MFG$DC0924\";"
+    }
+  }  
+}
+
+
+
+sink {
+  Console {
+    source_table_name = "fake"
+  }
+}

@@ -1,0 +1,218 @@
+2024-11-11 09:27:05,512 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 >> "{"ts":"2024-11-11T09:26:45.405","scn":"867583047148","train_id":"867583047148","train_seq":"171148","owner":"WJ_IA","table":"R_SN_CNF_T","op":"I","rowid":"AAA6y2ADYAAFUHPAA6","load_seq":"8419566530","dbname":"WJIAMES","columnsBefore":null,"columnsAfter":null,"__DORIS_DELETE_SIGN__":"0"}[\n]"
+2024-11-11 09:27:05,512 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 >> "{"ts":"2024-11-11T09:26:55.471","scn":"867585476062","train_id":"867585476062","train_seq":"226937","owner":"WJ_IA","table":"R_SN_CNF_T","op":"I","rowid":"AAA6y2ADYAAFUUSAAr","load_seq":"8419622319","dbname":"WJIAMES","columnsBefore":null,"columnsAfter":null,"__DORIS_DELETE_SIGN__":"0"}[\r][\n]"
+2024-11-11 09:27:05,512 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 >> "0[\r][\n]"
+2024-11-11 09:27:05,512 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 >> "[\r][\n]"
+2024-11-11 09:27:05,608 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-11 09:27:05,608 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+2024-11-11 09:27:05,608 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 << "Date: Mon, 11 Nov 2024 09:27:05 GMT[\r][\n]"
+2024-11-11 09:27:05,608 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 << "Content-Length: 315[\r][\n]"
+2024-11-11 09:27:05,608 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 << "Content-Type: text/html; charset=ISO-8859-1[\r][\n]"
+2024-11-11 09:27:05,608 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 << "[\r][\n]"
+2024-11-11 09:27:05,608 DEBUG [o.a.h.wire                    ] [stream-load-upload] - http-outgoing-1 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x3]u[0x91][0xdd]K[0xc3]0[0x14][0xc5][0xdf][0xf7]W[0x8c]>+$[0xe9][0xe7]|s[0x8a] n:[0xb6][0xe][0x1f]/w[0xed][0xdd][0x96][0xd1][0xa6][0xa3]I[0xad]"[0xfe][0xef]&[0xeb][0x7][0xc]1[0xf]I8?[0xce]9[0xe1][0xe6]{2[0xb5][0xcb]K?[0xd5]s[0xee][0xdd]My[0xcc]Er[0xd3]i[0xb][0xdc]Qa5[0xaf]=[0xdd][0x1a][0xd2][0x6].[0xdb][0x7][0xd6][0x12][0x95][0x81][0xf6][0x4][0x19][0xe7][0xf6][0xc0][0xfc]\[0x92][0x6]'H[0x4]8W[0x19]@[\r]ZA[0xa6][0xf6]``[0xc6][0x12][0x91]Da[0x12][0x5][0x9c][0x85][0x8c][0xb1]Y[0xc][0xc]x[0xec]s[0x9f][0xc7][0x82][0xb1][0x80][0x87]^[0xdf][0xf7]P[0x95]%)[0xe3][0x1a][0x7])m[0xab][0xd5][0x11]59$/d[0x8f][0x85][0xa6][0x1]o[0xc][0x9a]F;[0xc3][0xa6][0xc9]2[0xd2]z[0x0]K{[0xc7][0x3]9[0xf2][0xf6]2[0x88][0xaf]M[0xb9][0xa3]:[0xad][0xc][0x16][0xeb][0xaa]u[0xb6]([0x88][0xfa][0xee][0x8e]-*[0xcc])[0xff][0x7]>[0xc9][0xc2]P=bv[0xe5][0xdc]*M[0x5]e[0xe6][0xf]v[0x91][0xf3]/;9['[0xa2][0x90][0xc7][0xe3]t-HeI[0xcb][0xb][0x11][0x9c][0x89]>pN[0x7][0xa9][0xec][0x8c]p[0xd6][0x83][0x8d][0xa9][0x9]K[0x17][0xb8]j[0xcc]H[0x83][0x9e][0xae][0x9][0xf3]G48[0x82][0xe1][0x81][0xef][0xb5]4tE[0x84]`[0xa1][0xdf][0xdb][0xba][0xc9][0xde]+[0x9b][0xb9]+[0xa4]>[0x8e]v?[0x98][0xfc]L~[0x1][0x86]3[0xa1][0x93][0x1e][0x2][0x0][0x0]"
+2024-11-11 09:27:05,608 DEBUG [o.a.h.headers                 ] [stream-load-upload] - http-outgoing-1 << HTTP/1.1 200 OK
+2024-11-11 09:27:05,608 DEBUG [o.a.h.headers                 ] [stream-load-upload] - http-outgoing-1 << Content-Encoding: gzip
+2024-11-11 09:27:05,608 DEBUG [o.a.h.headers                 ] [stream-load-upload] - http-outgoing-1 << Date: Mon, 11 Nov 2024 09:27:05 GMT
+2024-11-11 09:27:05,608 DEBUG [o.a.h.headers                 ] [stream-load-upload] - http-outgoing-1 << Content-Length: 315
+2024-11-11 09:27:05,608 DEBUG [o.a.h.headers                 ] [stream-load-upload] - http-outgoing-1 << Content-Type: text/html; charset=ISO-8859-1
+2024-11-11 09:27:05,610 DEBUG [o.a.h.i.e.MainClientExec      ] [stream-load-upload] - Connection can be kept alive indefinitely
+2024-11-11 09:27:05,612 DEBUG [ingHttpClientConnectionManager] [st-multi-table-sink-writer-2] - Connection [id: 1][route: {}->http://10.136.219.209:8040] can be kept alive indefinitely
+2024-11-11 09:27:05,612 DEBUG [ultManagedHttpClientConnection] [st-multi-table-sink-writer-2] - http-outgoing-1: set socket timeout to 0
+2024-11-11 09:27:05,613 DEBUG [ingHttpClientConnectionManager] [st-multi-table-sink-writer-2] - Connection released: [id: 1][route: {}->http://10.136.219.209:8040][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2024-11-11 09:27:05,613 INFO  [o.a.s.c.d.s.w.DorisStreamLoad ] [st-multi-table-sink-writer-2] - load Result {
+    "TxnId": 17128,
+    "Label": "wj-test_test_variant_wj_c11_wjadpmes__wj_ia__poc__r_sn_cnf_t_908286586410500097_0_1731317200415",
+    "Comment": "",
+    "TwoPhaseCommit": "false",
+    "Status": "Success",
+    "Message": "OK",
+    "NumberTotalRows": 646,
+    "NumberLoadedRows": 646,
+    "NumberFilteredRows": 0,
+    "NumberUnselectedRows": 0,
+    "LoadBytes": 265178,
+    "LoadTimeMs": 22102,
+    "BeginTxnTimeMs": 9,
+    "StreamLoadPutTimeMs": 4,
+    "ReadDataTimeMs": 0,
+    "WriteDataTimeMs": 22053,
+    "CommitAndPublishTimeMs": 34
+}
+
+2024-11-11 09:27:05,666 INFO  [.s.e.s.c.CheckpointCoordinator] [seatunnel-coordinator-service-2] - pending checkpoint(9223372036854775807/1@908286586410500097) notify finished!
+2024-11-11 09:27:05,666 INFO  [.s.e.s.c.CheckpointCoordinator] [seatunnel-coordinator-service-2] - start notify checkpoint completed, job id: 908286586410500097, pipeline id: 1, checkpoint id:9223372036854775807
+2024-11-11 09:27:05,670 INFO  [.s.e.s.c.CheckpointCoordinator] [seatunnel-coordinator-service-2] - start clean pending checkpoint cause CheckpointCoordinator completed.
+2024-11-11 09:27:05,671 DEBUG [o.a.k.c.NetworkClient         ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-493596988, groupId=SeaTunnel-Consumer-Group] Sending OFFSET_COMMIT request with header RequestHeader(apiKey=OFFSET_COMMIT, apiVersion=8, clientId=seatunnel-consumer-493596988, correlationId=25) and timeout 30000 to node 2147483644: OffsetCommitRequestData(groupId='SeaTunnel-Consumer-Group', generationId=-1, memberId='', groupInstanceId=null, retentionTimeMs=-1, topics=[OffsetCommitRequestTopic(name='MES-IT__WJIAMES__WJ_IA__POC__R_SN_CNF_T', partitions=[OffsetCommitRequestPartition(partitionIndex=0, committedOffset=41516, committedLeaderEpoch=-1, commitTimestamp=-1, committedMetadata='')])])
+2024-11-11 09:27:05,671 DEBUG [o.a.k.c.NetworkClient         ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-999577355, groupId=SeaTunnel-Consumer-Group] Sending OFFSET_COMMIT request with header RequestHeader(apiKey=OFFSET_COMMIT, apiVersion=8, clientId=seatunnel-consumer-999577355, correlationId=25) and timeout 30000 to node 2147483644: OffsetCommitRequestData(groupId='SeaTunnel-Consumer-Group', generationId=-1, memberId='', groupInstanceId=null, retentionTimeMs=-1, topics=[OffsetCommitRequestTopic(name='MES-IT__WJIAMES__WJ_IA__POC__R_SN_CNF_T', partitions=[OffsetCommitRequestPartition(partitionIndex=2, committedOffset=43296, committedLeaderEpoch=-1, commitTimestamp=-1, committedMetadata='')])])
+2024-11-11 09:27:05,671 DEBUG [o.a.k.c.NetworkClient         ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-36099700, groupId=SeaTunnel-Consumer-Group] Sending OFFSET_COMMIT request with header RequestHeader(apiKey=OFFSET_COMMIT, apiVersion=8, clientId=seatunnel-consumer-36099700, correlationId=9) and timeout 30000 to node 2147483644: OffsetCommitRequestData(groupId='SeaTunnel-Consumer-Group', generationId=-1, memberId='', groupInstanceId=null, retentionTimeMs=-1, topics=[OffsetCommitRequestTopic(name='MES-IT__WJIAMES__WJ_IA__POC__R_SN_CNF_T', partitions=[OffsetCommitRequestPartition(partitionIndex=1, committedOffset=43627, committedLeaderEpoch=-1, commitTimestamp=-1, committedMetadata='')])])
+2024-11-11 09:27:05,672 INFO  [.s.e.s.c.CheckpointCoordinator] [seatunnel-coordinator-service-2] - Turn checkpoint_state_908286586410500097_1 state from null to FINISHED
+2024-11-11 09:27:05,672 DEBUG [o.a.k.c.NetworkClient         ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-999577355, groupId=SeaTunnel-Consumer-Group] Received FETCH response from node 6 for request with header RequestHeader(apiKey=FETCH, apiVersion=13, clientId=seatunnel-consumer-999577355, correlationId=24): FetchResponseData(throttleTimeMs=0, errorCode=0, sessionId=1233306591, responses=[])
+2024-11-11 09:27:05,672 DEBUG [o.a.k.c.NetworkClient         ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-493596988, groupId=SeaTunnel-Consumer-Group] Received FETCH response from node 0 for request with header RequestHeader(apiKey=FETCH, apiVersion=13, clientId=seatunnel-consumer-493596988, correlationId=24): FetchResponseData(throttleTimeMs=0, errorCode=0, sessionId=117584347, responses=[])
+2024-11-11 09:27:05,672 DEBUG [o.a.k.c.NetworkClient         ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-36099700, groupId=SeaTunnel-Consumer-Group] Received FETCH response from node 3 for request with header RequestHeader(apiKey=FETCH, apiVersion=13, clientId=seatunnel-consumer-36099700, correlationId=8): FetchResponseData(throttleTimeMs=0, errorCode=0, sessionId=171668106, responses=[])
+2024-11-11 09:27:05,672 DEBUG [o.a.k.c.FetchSessionHandler   ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-36099700, groupId=SeaTunnel-Consumer-Group] Node 3 sent an incremental fetch response with throttleTimeMs = 0 for session 171668106 with 0 response partition(s), 1 implied partition(s)
+2024-11-11 09:27:05,672 DEBUG [o.a.k.c.FetchSessionHandler   ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-493596988, groupId=SeaTunnel-Consumer-Group] Node 0 sent an incremental fetch response with throttleTimeMs = 0 for session 117584347 with 0 response partition(s), 1 implied partition(s)
+2024-11-11 09:27:05,672 DEBUG [o.a.k.c.FetchSessionHandler   ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-999577355, groupId=SeaTunnel-Consumer-Group] Node 6 sent an incremental fetch response with throttleTimeMs = 0 for session 1233306591 with 0 response partition(s), 1 implied partition(s)
+2024-11-11 09:27:05,674 INFO  [o.a.s.e.s.TaskExecutionService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}] - [seatunnel]:5801 [seatunnel] [5.1] taskDone, taskId = 40000, taskGroup = TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}
+2024-11-11 09:27:05,675 DEBUG [.a.k.c.c.i.ConsumerCoordinator] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-999577355, groupId=SeaTunnel-Consumer-Group] Executing onLeavePrepare with generation Generation{generationId=-1, memberId='', protocol='null'}
+2024-11-11 09:27:05,675 DEBUG [.a.k.c.c.i.ConsumerCoordinator] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-36099700, groupId=SeaTunnel-Consumer-Group] Executing onLeavePrepare with generation Generation{generationId=-1, memberId='', protocol='null'}
+2024-11-11 09:27:05,675 DEBUG [.a.k.c.c.i.ConsumerCoordinator] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-493596988, groupId=SeaTunnel-Consumer-Group] Executing onLeavePrepare with generation Generation{generationId=-1, memberId='', protocol='null'}
+2024-11-11 09:27:05,675 INFO  [.a.k.c.c.i.ConsumerCoordinator] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-36099700, groupId=SeaTunnel-Consumer-Group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-11-11 09:27:05,675 INFO  [.a.k.c.c.i.ConsumerCoordinator] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-999577355, groupId=SeaTunnel-Consumer-Group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-11-11 09:27:05,675 INFO  [.a.k.c.c.i.ConsumerCoordinator] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-493596988, groupId=SeaTunnel-Consumer-Group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-11-11 09:27:05,675 INFO  [.a.k.c.c.i.ConsumerCoordinator] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-493596988, groupId=SeaTunnel-Consumer-Group] Request joining group due to: consumer pro-actively leaving the group
+2024-11-11 09:27:05,675 INFO  [.a.k.c.c.i.ConsumerCoordinator] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-36099700, groupId=SeaTunnel-Consumer-Group] Request joining group due to: consumer pro-actively leaving the group
+2024-11-11 09:27:05,675 INFO  [.a.k.c.c.i.ConsumerCoordinator] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-999577355, groupId=SeaTunnel-Consumer-Group] Request joining group due to: consumer pro-actively leaving the group
+2024-11-11 09:27:05,676 ERROR [o.a.k.c.c.KafkaConsumer       ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-999577355, groupId=SeaTunnel-Consumer-Group] Failed to close coordinator
+org.apache.kafka.common.errors.InterruptException: java.lang.InterruptedException
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.maybeThrowInterruptException(ConsumerNetworkClient.java:520) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:281) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:236) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:227) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.awaitPendingRequests(ConsumerNetworkClient.java:338) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close(AbstractCoordinator.java:1082) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.close(ConsumerCoordinator.java:980) ~[?:?]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:2411) ~[?:?]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:2378) ~[?:?]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:2351) ~[?:?]
+	at org.apache.seatunnel.connectors.seatunnel.kafka.source.KafkaConsumerThread.run(KafkaConsumerThread.java:68) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_342]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_342]
+Caused by: java.lang.InterruptedException
+	... 16 more
+2024-11-11 09:27:05,676 ERROR [o.a.k.c.c.KafkaConsumer       ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-36099700, groupId=SeaTunnel-Consumer-Group] Failed to close coordinator
+org.apache.kafka.common.errors.InterruptException: java.lang.InterruptedException
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.maybeThrowInterruptException(ConsumerNetworkClient.java:520) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:281) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:236) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:227) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.awaitPendingRequests(ConsumerNetworkClient.java:338) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close(AbstractCoordinator.java:1082) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.close(ConsumerCoordinator.java:980) ~[?:?]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:2411) ~[?:?]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:2378) ~[?:?]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:2351) ~[?:?]
+	at org.apache.seatunnel.connectors.seatunnel.kafka.source.KafkaConsumerThread.run(KafkaConsumerThread.java:68) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_342]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_342]
+Caused by: java.lang.InterruptedException
+	... 16 more
+2024-11-11 09:27:05,676 ERROR [o.a.k.c.c.KafkaConsumer       ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-493596988, groupId=SeaTunnel-Consumer-Group] Failed to close coordinator
+org.apache.kafka.common.errors.InterruptException: java.lang.InterruptedException
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.maybeThrowInterruptException(ConsumerNetworkClient.java:520) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:281) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:236) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:227) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.awaitPendingRequests(ConsumerNetworkClient.java:338) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close(AbstractCoordinator.java:1082) ~[?:?]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.close(ConsumerCoordinator.java:980) ~[?:?]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:2411) ~[?:?]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:2378) ~[?:?]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:2351) ~[?:?]
+	at org.apache.seatunnel.connectors.seatunnel.kafka.source.KafkaConsumerThread.run(KafkaConsumerThread.java:68) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_342]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_342]
+Caused by: java.lang.InterruptedException
+	... 16 more
+2024-11-11 09:27:05,676 INFO  [o.a.k.c.m.Metrics             ] [Kafka Source Data Consumer] - Metrics scheduler closed
+2024-11-11 09:27:05,676 INFO  [o.a.k.c.m.Metrics             ] [Kafka Source Data Consumer] - Metrics scheduler closed
+2024-11-11 09:27:05,676 INFO  [o.a.k.c.m.Metrics             ] [Kafka Source Data Consumer] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-11 09:27:05,676 INFO  [o.a.k.c.m.Metrics             ] [Kafka Source Data Consumer] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-11 09:27:05,676 INFO  [o.a.k.c.m.Metrics             ] [Kafka Source Data Consumer] - Metrics reporters closed
+2024-11-11 09:27:05,677 INFO  [o.a.k.c.m.Metrics             ] [Kafka Source Data Consumer] - Metrics reporters closed
+2024-11-11 09:27:05,677 INFO  [o.a.k.c.m.Metrics             ] [Kafka Source Data Consumer] - Metrics scheduler closed
+2024-11-11 09:27:05,677 INFO  [o.a.k.c.m.Metrics             ] [Kafka Source Data Consumer] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-11 09:27:05,677 INFO  [o.a.k.c.m.Metrics             ] [Kafka Source Data Consumer] - Metrics reporters closed
+2024-11-11 09:27:05,683 INFO  [o.a.k.c.u.AppInfoParser       ] [Kafka Source Data Consumer] - App info kafka.consumer for seatunnel-consumer-999577355 unregistered
+2024-11-11 09:27:05,683 DEBUG [o.a.k.c.c.KafkaConsumer       ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-999577355, groupId=SeaTunnel-Consumer-Group] Kafka consumer has been closed
+2024-11-11 09:27:05,684 INFO  [o.a.k.c.u.AppInfoParser       ] [Kafka Source Data Consumer] - App info kafka.consumer for seatunnel-consumer-36099700 unregistered
+2024-11-11 09:27:05,684 DEBUG [o.a.k.c.c.KafkaConsumer       ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-36099700, groupId=SeaTunnel-Consumer-Group] Kafka consumer has been closed
+2024-11-11 09:27:05,684 INFO  [o.a.k.c.u.AppInfoParser       ] [Kafka Source Data Consumer] - App info kafka.consumer for seatunnel-consumer-493596988 unregistered
+2024-11-11 09:27:05,684 DEBUG [o.a.k.c.c.KafkaConsumer       ] [Kafka Source Data Consumer] - [Consumer clientId=seatunnel-consumer-493596988, groupId=SeaTunnel-Consumer-Group] Kafka consumer has been closed
+2024-11-11 09:27:05,698 DEBUG [o.a.k.c.a.KafkaAdminClient    ] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}] - [AdminClient clientId=client_1] Initiating close operation.
+2024-11-11 09:27:05,698 DEBUG [o.a.k.c.a.KafkaAdminClient    ] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}] - [AdminClient clientId=client_1] Waiting for the I/O thread to exit. Hard shutdown in 31536000000 ms.
+2024-11-11 09:27:05,699 INFO  [o.a.k.c.u.AppInfoParser       ] [kafka-admin-client-thread | client_1] - App info kafka.admin.client for client_1 unregistered
+2024-11-11 09:27:05,702 INFO  [o.a.k.c.m.Metrics             ] [kafka-admin-client-thread | client_1] - Metrics scheduler closed
+2024-11-11 09:27:05,702 INFO  [o.a.k.c.m.Metrics             ] [kafka-admin-client-thread | client_1] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-11 09:27:05,702 INFO  [o.a.k.c.m.Metrics             ] [kafka-admin-client-thread | client_1] - Metrics reporters closed
+2024-11-11 09:27:05,702 DEBUG [o.a.k.c.a.KafkaAdminClient    ] [kafka-admin-client-thread | client_1] - [AdminClient clientId=client_1] Exiting AdminClientRunnable thread.
+2024-11-11 09:27:05,702 DEBUG [o.a.k.c.a.KafkaAdminClient    ] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}] - [AdminClient clientId=client_1] Kafka admin client closed.
+2024-11-11 09:27:05,702 INFO  [o.a.s.e.s.TaskExecutionService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}] - [seatunnel]:5801 [seatunnel] [5.1] taskDone, taskId = 20000, taskGroup = TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}
+2024-11-11 09:27:05,702 INFO  [.c.c.DefaultClassLoaderService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}] - Release classloader for job 908286586410500097 with jars [file:/opt/seatunnel/connectors/connector-kafka-2.3.7.jar]
+2024-11-11 09:27:05,705 INFO  [.c.c.DefaultClassLoaderService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}] - recycle classloader for thread BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}
+2024-11-11 09:27:05,708 INFO  [o.a.s.e.s.TaskExecutionService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}] - [seatunnel]:5801 [seatunnel] [5.1] taskGroup TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1} complete with FINISHED
+2024-11-11 09:27:05,708 INFO  [o.a.s.e.s.TaskExecutionService] [hz.main.seaTunnel.task.thread-4] - [seatunnel]:5801 [seatunnel] [5.1] Task TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1} complete with state FINISHED
+2024-11-11 09:27:05,708 INFO  [o.a.s.e.s.CoordinatorService  ] [hz.main.seaTunnel.task.thread-4] - [seatunnel]:5801 [seatunnel] [5.1] Received task end from execution TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=1}, state FINISHED
+2024-11-11 09:27:05,709 INFO  [o.a.s.e.s.d.p.PhysicalVertex  ] [hz.main.seaTunnel.task.thread-4] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)], task: [pipeline-1 [Source[0]-Kafka]-SplitEnumerator (1/1)] turned from state RUNNING to FINISHED.
+2024-11-11 09:27:05,709 INFO  [o.a.s.e.s.d.p.PhysicalVertex  ] [hz.main.seaTunnel.task.thread-4] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)], task: [pipeline-1 [Source[0]-Kafka]-SplitEnumerator (1/1)] state process is stopped
+2024-11-11 09:27:05,710 INFO  [o.a.s.e.s.d.p.SubPlan         ] [seatunnel-coordinator-service-2] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)], task: [pipeline-1 [Source[0]-Kafka]-SplitEnumerator (1/1)] future complete with state FINISHED
+2024-11-11 09:27:05,766 DEBUG [ingHttpClientConnectionManager] [ForkJoinPool.commonPool-worker-0] - Connection manager is shutting down
+2024-11-11 09:27:05,766 DEBUG [ultManagedHttpClientConnection] [ForkJoinPool.commonPool-worker-0] - http-outgoing-1: Close connection
+2024-11-11 09:27:05,766 DEBUG [ingHttpClientConnectionManager] [ForkJoinPool.commonPool-worker-0] - Connection manager shut down
+2024-11-11 09:27:05,767 INFO  [o.a.s.e.s.TaskExecutionService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}] - [seatunnel]:5801 [seatunnel] [5.1] taskDone, taskId = 50000, taskGroup = TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}
+2024-11-11 09:27:05,767 INFO  [.c.c.DefaultClassLoaderService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}] - Release classloader for job 908286586410500097 with jars [file:/opt/seatunnel/connectors/connector-doris-2.3.7.jar, file:/opt/seatunnel/connectors/seatunnel-transforms-v2-2.3.7.jar, file:/opt/seatunnel/connectors/connector-kafka-2.3.7.jar]
+2024-11-11 09:27:05,769 INFO  [.c.c.DefaultClassLoaderService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}] - recycle classloader for thread ForkJoinPool.commonPool-worker-2
+2024-11-11 09:27:05,769 INFO  [.c.c.DefaultClassLoaderService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}] - recycle classloader for thread ForkJoinPool.commonPool-worker-0
+2024-11-11 09:27:05,769 INFO  [.c.c.DefaultClassLoaderService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}] - recycle classloader for thread BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}
+2024-11-11 09:27:05,769 INFO  [.c.c.DefaultClassLoaderService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}] - recycle classloader for thread ForkJoinPool.commonPool-worker-3
+2024-11-11 09:27:05,771 INFO  [o.a.s.e.s.TaskExecutionService] [BlockingWorker-TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}] - [seatunnel]:5801 [seatunnel] [5.1] taskGroup TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000} complete with FINISHED
+2024-11-11 09:27:05,771 INFO  [o.a.s.e.s.TaskExecutionService] [hz.main.seaTunnel.task.thread-4] - [seatunnel]:5801 [seatunnel] [5.1] Task TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000} complete with state FINISHED
+2024-11-11 09:27:05,771 INFO  [o.a.s.e.s.CoordinatorService  ] [hz.main.seaTunnel.task.thread-4] - [seatunnel]:5801 [seatunnel] [5.1] Received task end from execution TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}, state FINISHED
+2024-11-11 09:27:05,772 INFO  [o.a.s.e.s.d.p.PhysicalVertex  ] [hz.main.seaTunnel.task.thread-4] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)], task: [pipeline-1 [Source[0]-Kafka]-SourceTask (1/1)] turned from state RUNNING to FINISHED.
+2024-11-11 09:27:05,772 INFO  [o.a.s.e.s.d.p.PhysicalVertex  ] [hz.main.seaTunnel.task.thread-4] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)], task: [pipeline-1 [Source[0]-Kafka]-SourceTask (1/1)] state process is stopped
+2024-11-11 09:27:05,772 INFO  [o.a.s.e.s.d.p.SubPlan         ] [seatunnel-coordinator-service-2] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)], task: [pipeline-1 [Source[0]-Kafka]-SourceTask (1/1)] future complete with state FINISHED
+2024-11-11 09:27:05,772 INFO  [o.a.s.e.s.d.p.SubPlan         ] [seatunnel-coordinator-service-2] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)] will end with state FINISHED
+2024-11-11 09:27:05,773 INFO  [o.a.s.e.s.d.p.SubPlan         ] [seatunnel-coordinator-service-2] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)] turned from state RUNNING to FINISHED.
+2024-11-11 09:27:05,773 INFO  [o.a.s.e.s.m.JobMaster         ] [hz.main.seaTunnel.task.thread-4] - release the task group resource TaskGroupLocation{jobId=908286586410500097, pipelineId=1, taskGroupId=30000}
+2024-11-11 09:27:05,773 INFO  [a.s.e.s.s.s.DefaultSlotService] [hz.main.generic-operation.thread-35] - received slot release request, jobID: 908286586410500097, slot: SlotProfile{worker=[seatunnel]:5801, slotID=2, ownerJobID=908286586410500097, assigned=true, resourceProfile=ResourceProfile{cpu=CPU{core=0}, heapMemory=Memory{bytes=0}}, sequence='7c452db1-872b-474b-b07d-acbe42a97e66'}
+2024-11-11 09:27:05,793 INFO  [o.a.s.e.s.m.JobMaster         ] [seatunnel-coordinator-service-2] - release the pipeline Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)] resource
+2024-11-11 09:27:05,794 INFO  [a.s.e.s.s.s.DefaultSlotService] [hz.main.generic-operation.thread-39] - received slot release request, jobID: 908286586410500097, slot: SlotProfile{worker=[seatunnel]:5801, slotID=1, ownerJobID=908286586410500097, assigned=true, resourceProfile=ResourceProfile{cpu=CPU{core=0}, heapMemory=Memory{bytes=0}}, sequence='7c452db1-872b-474b-b07d-acbe42a97e66'}
+2024-11-11 09:27:05,795 INFO  [o.a.s.e.s.d.p.SubPlan         ] [seatunnel-coordinator-service-2] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)] state process is stop
+2024-11-11 09:27:05,795 INFO  [o.a.s.e.s.d.p.PhysicalPlan    ] [seatunnel-coordinator-service-1] - Job SeaTunnel_Job (908286586410500097), Pipeline: [(1/1)] future complete with state FINISHED
+2024-11-11 09:27:05,796 INFO  [o.a.s.e.s.d.p.PhysicalPlan    ] [seatunnel-coordinator-service-1] - Job SeaTunnel_Job (908286586410500097) turned from state RUNNING to FINISHED.
+2024-11-11 09:27:05,796 INFO  [o.a.s.e.s.d.p.PhysicalPlan    ] [seatunnel-coordinator-service-1] - Job SeaTunnel_Job (908286586410500097) state process is stop
+2024-11-11 09:27:05,851 INFO  [c.h.i.s.t.TcpServerConnection ] [hz.main.IO.thread-in-0] - [seatunnel]:5801 [seatunnel] [5.1] Connection[id=1, /172.18.0.2:5801->/172.18.0.3:43501, qualifier=null, endpoint=[172.18.0.3]:43501, remoteUuid=cde99d45-ed66-4bae-a7cd-535b5d406b59, alive=false, connectionType=JVM, planeIndex=-1] closed. Reason: Connection closed by the other side
+2024-11-11 09:27:05,853 DEBUG [c.h.i.c.ClusterService        ] [hz.main.event-3] - [seatunnel]:5801 [seatunnel] [5.1] Removed connection to [172.18.0.3]:43501
+2024-11-11 09:27:05,853 DEBUG [c.h.i.s.t.LocalAddressRegistry] [hz.main.event-3] - [seatunnel]:5801 [seatunnel] [5.1] LinkedAddresses{primaryAddress=[172.18.0.3]:43501, allLinkedAddresses=[[172.18.0.3]:43501]} previously registered for the instance uuid=cde99d45-ed66-4bae-a7cd-535b5d406b59 are removed from the registry
+2024-11-11 09:27:05,854 INFO  [c.h.c.i.ClientEndpointManager ] [hz.main.event-3] - [seatunnel]:5801 [seatunnel] [5.1] Destroying ClientEndpoint{connection=Connection[id=1, /172.18.0.2:5801->/172.18.0.3:43501, qualifier=null, endpoint=[172.18.0.3]:43501, remoteUuid=cde99d45-ed66-4bae-a7cd-535b5d406b59, alive=false, connectionType=JVM, planeIndex=-1], clientUuid=cde99d45-ed66-4bae-a7cd-535b5d406b59, clientName=hz.client_1, authenticated=true, clientVersion=5.1, creationTime=1731317197009, latest clientAttributes=lastStatisticsCollectionTime=1731317222082,enterprise=false,clientType=JVM,clientVersion=5.1,clusterConnectionTimestamp=1731317196728,clientAddress=172.18.0.3,clientName=hz.client_1,credentials.principal=null,os.committedVirtualMemorySize=4996390912,os.freePhysicalMemorySize=2384670720,os.freeSwapSpaceSize=3474743296,os.maxFileDescriptorCount=1048576,os.openFileDescriptorCount=28,os.processCpuTime=7220000000,os.systemLoadAverage=0.34,os.totalPhysicalMemorySize=16773496832,os.totalSwapSpaceSize=4126142464,runtime.availableProcessors=8,runtime.freeMemory=302998128,runtime.maxMemory=477626368,runtime.totalMemory=324534272,runtime.uptime=26745,runtime.usedMemory=21536144, labels=[]}
+2024-11-11 09:27:06,902 DEBUG [h.i.p.InternalPartitionService] [hz.main.cached.thread-3] - [seatunnel]:5801 [seatunnel] [5.1] Checking partition state, stamp: -8661523421455686299
+2024-11-11 09:27:21,902 DEBUG [h.i.p.InternalPartitionService] [hz.main.cached.thread-5] - [seatunnel]:5801 [seatunnel] [5.1] Checking partition state, stamp: -8661523421455686299
+2024-11-11 09:27:36,888 INFO  [o.a.s.e.s.CoordinatorService  ] [pool-6-thread-1] - [seatunnel]:5801 [seatunnel] [5.1] 
+***********************************************
+     CoordinatorService Thread Pool Status
+***********************************************
+activeCount               :                   0
+corePoolSize              :                   0
+maximumPoolSize           :          2147483647
+poolSize                  :                   3
+completedTaskCount        :                  17
+taskCount                 :                  17
+***********************************************
+
+2024-11-11 09:27:36,891 INFO  [o.a.s.e.s.CoordinatorService  ] [pool-6-thread-1] - [seatunnel]:5801 [seatunnel] [5.1] 
+***********************************************
+                Job info detail
+***********************************************
+createdJobCount           :                   0
+scheduledJobCount         :                   0
+runningJobCount           :                   0
+failingJobCount           :                   0
+failedJobCount            :                   0
+cancellingJobCount        :                   0
+canceledJobCount          :                   0
+finishedJobCount          :                   0
+***********************************************
+
+2024-11-11 09:27:36,902 DEBUG [h.i.p.InternalPartitionService] [hz.main.cached.thread-2] - [seatunnel]:5801 [seatunnel] [5.1] Checking partition state, stamp: -8661523421455686299
+2024-11-11 09:27:36,906 DEBUG [c.h.i.c.i.MembershipManager   ] [hz.main.cached.thread-5] - [seatunnel]:5801 [seatunnel] [5.1] Sending member list to the non-master nodes: 
+
+Members {size:1, ver:1} [
+	Member [seatunnel]:5801 - ef0450fc-4acc-41bf-8002-9775de00c950 this master
+]

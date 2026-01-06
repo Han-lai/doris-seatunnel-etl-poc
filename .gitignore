@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*/venv/
+*/ENV/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+~$*.doc
+~$*.docx
+
+# Large binary files (不上傳到 GitHub，但保留在本地)
+*.tar
+*.tar.gz
+*.zip
+doris_resource_tar/
+doris/doris.tar
+doris/doris.zip
+
+# Excel 臨時檔案
+~$*.xlsx
+~$*.xls
+~$*.doc
+~$*.docx
+
+# WBS 檔案（包含專案規劃資訊，不上傳）
+wbs.xlsx
+數據中台POC1_WBS.xlsx
+*WBS*.xlsx
+
+# Data files (視需求調整)
+# *.csv
+# *.json
+
+# Logs
+*.log
+logs/
+*/logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Credentials (確保不會意外提交)
+.env
+.env.local
+secrets.yml
+credentials.json
+
+# Git
+.git/
